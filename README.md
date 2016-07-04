@@ -35,3 +35,5 @@ You may want to change the host in `server.js` and `webpack.config.js` from `loc
 * [babel-loader](https://github.com/babel/babel-loader)
 * [react-hot-loader](https://github.com/gaearon/react-hot-loader)
 
+For more informations about semantic-ui, go here :
+[official doc](http://semantic-ui.com/introduction/getting-started.html)
