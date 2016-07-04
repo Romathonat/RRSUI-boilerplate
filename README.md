@@ -27,6 +27,11 @@ npm run lint
 
 You may want to change the host in `server.js` and `webpack.config.js` from `localhost` to `0.0.0.0` to allow access from same WiFi network. This is not enabled by default because it is reported to cause problems on Windows. This may also be useful if you're using a VM.
 
+### About Semantic-UI
+Semantic-UI needs a compilation step with gulp. To simplify things, I precompiled it and included the minified files in the index.html. However, if you wish to recompile it by yourself (in the aim to change the current Font for example), you can go here :
+[official doc](http://semantic-ui.com/introduction/getting-started.html)
+
+
 ### Dependencies
 
 * React
@@ -35,5 +40,4 @@ You may want to change the host in `server.js` and `webpack.config.js` from `loc
 * [babel-loader](https://github.com/babel/babel-loader)
 * [react-hot-loader](https://github.com/gaearon/react-hot-loader)
 
-For more informations about semantic-ui, go here :
-[official doc](http://semantic-ui.com/introduction/getting-started.html)
+
