@@ -1,18 +1,19 @@
 {
-  "name": "react-hot-boilerplate",
+  "name": "RRSUI",
   "version": "1.0.0",
-  "description": "Boilerplate for ReactJS project with hot code reloading",
+  "description": "Boilerplate for ReactJS, Redux and Semantic UI with hot code reloading",
   "scripts": {
     "start": "node server.js",
     "lint": "eslint src"
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/gaearon/react-hot-boilerplate.git"
+    "url": "https://github.com/Romathonat/RRSUI-boilerplate.git"
   },
   "keywords": [
     "react",
     "reactjs",
+    "redux",
     "boilerplate",
     "hot",
     "reload",
