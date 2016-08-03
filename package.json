@@ -3,11 +3,11 @@
   "version": "1.0.0",
   "description": "Boilerplate for ReactJS, Redux and Semantic UI with hot code reloading",
   "scripts": {
+    "build": "webpack --config ./webpack.prod.config.js --progress --colors",
     "start": "node server.js",
     "lint": "eslint src"
   },
   "repository": {
-    "build": "webpack --config ./webpack.prod.config.js --progress --colors",
     "type": "git",
     "url": "https://github.com/Romathonat/RRSUI-boilerplate.git"
   },

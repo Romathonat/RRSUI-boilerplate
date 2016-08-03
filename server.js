@@ -30,9 +30,7 @@ if (isProduction) { // prod :
   new WebpackDevServer(webpack(config), {
     publicPath: config.output.publicPath,
     hot: true,
-    historyApiFallback: true,
-    proxy: [proxyOptions],
-    setup: setup
+    historyApiFallback: true
   }).listen(port, function (err, result) {
     if (err) {
       return console.log(err);
